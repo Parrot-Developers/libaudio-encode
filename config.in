@@ -1,0 +1,11 @@
+    config AENC_FDK_AAC
+        bool "aenc fdk-aac implementation"
+            default false
+        help
+            Enable the Fraunhofer FDK AAC implementation in libaudio-encode.
+
+    config AENC_FAKEAAC
+        bool "aenc fakeaac implementation"
+            default false
+        help
+            Enable the fake AAC implementation in libaudio-encode.
